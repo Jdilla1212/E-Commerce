@@ -13,7 +13,7 @@ const products = [
         image: "https://images.ctfassets.net/od02wyo8cgm5/2xrqztkhkZHj7A0LX2r0aO/a95b3d48192ac06b84edd3ad97fa1a4d/cloudstratus-fw20-mineral_rust-m-g1.png?w=1440&h=1440&fl=progressive&q=61&bg=rgb:f7f7f7&fm=jpg"
     },
     {
-        id: 1,
+        id: 2,
         name: "Macbook",
         description: "Apple Macbook",
         price: "$10",
