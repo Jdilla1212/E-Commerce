@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# React Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![License badge](https://img.shields.io/badge/license-MIT-green)
 
-## Available Scripts
+[For deployed version, click me](https://papadillasshop.netlify.app/)
 
-In the project directory, you can run:
+![Image of DEMO application](https://github.com/Jdilla1212/E-Commerce/tree/main/src/assets/site-sample-1.png) 
+![Image of DEMO application](https://github.com/Jdilla1212/E-Commerce/tree/main/src/assets/site-sample-2.png) 
+![Image of DEMO application](https://github.com/Jdilla1212/E-Commerce/tree/main/src/assets/site-sample-3.png) 
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  ## Description 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  This is a sample ecommerce website built using commerce.js and stripe.  Built entirely with React.js and styled with Material-UI.  Commerce.js handles the products on the back end and stripe handles the payments! Credit to JavaScript Mastery (https://github.com/adrianhajdin) for the inspiration and the guide on building this site!
 
-### `npm test`
+  ** Note that you can't actually buy the items on this site, just for fun! ** 
+  
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  ## Table of Contents
 
-### `npm run build`
+  * [Usage](#usage)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+  * [Built With](#Built)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  * [Contribution](#contributors)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  * [Contact](#Contact) 
 
-### `npm run eject`
+  * [License](#License) 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  ## Built With
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  * [ReactJS](https://reactjs.org/) - A JavaScript library for building user interfaces
 
-## Learn More
+  * [Material-UI](https://material-ui.com/) - React components for faster and easier web development.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  * [Commerce.js](https://commercejs.com/) - Design, build, and control your eCommerce using our APIs and dashboard. Experience control meets integration flexibility.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  * [Stripe](https://stripe.com/) - A fully integrated suite of payments products
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br>
 
-### Analyzing the Bundle Size
+  ## Usage
+  Use the link for the deployed version at the top of this page!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br>
 
-### Making a Progressive Web App
+  ## Contributors 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* [Josh Padilla](https://github.com/Jdilla1212)
+* [JavaScript Mastery](https://github.com/adrianhajdin)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br>
 
-### Deployment
+  ## Questions 
+  
+* [Reach out to me on Github](https://github.com/Jdilla1212)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<hr>
 
-### `npm run build` fails to minify
+  ## Licence 
+MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) 2020 github.com/jdilla1212
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
