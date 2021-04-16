@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { InputLabel, Select, MenuItem, Button, Grid, Typography } from "@material-ui/core";
 import { useForm, FormProvider } from "react-hook-form";
+import { Link } from 'react-router-dom';
 
 import { commerce } from "../../lib/commerce"
 
 import FormInput from "./CustomTextField"
-import { MusicNoteOutlined } from '@material-ui/icons';
+// import { MusicNoteOutlined } from '@material-ui/icons';
 
-const AddressForm = ({ checkoutToken }) => {
+const AddressForm = ({ checkoutToken, next }) => {
     const [shippingCountries, setShippingCountries] = useState([]);
     const [shippingCountry, setShippingCountry] = useState("");
     const [shippingSubdivisions, setShippingSubdivisions] = useState([]);
@@ -59,7 +60,7 @@ const AddressForm = ({ checkoutToken }) => {
         <>
             <Typography variant="h6" gutterBottom>Shipping Address</Typography>
             <FormProvider {...methods}>
-                <form onSubmit="">
+                <form onSubmit={methods.handleSubmit((data) => next({ ...data, setShippingCountry, setShippingSubdivision }))}>
                     <Grid container spacing={3}>
                         <FormInput name="firstName" label="First Name" />
                         <FormInput name="lastName" label="Last Name" />
@@ -92,6 +93,11 @@ const AddressForm = ({ checkoutToken }) => {
                             </Select>
                         </Grid> */}
                     </Grid>
+                    <br />
+                    <div style={{ display: "flex", justifyContent: "space-between" }}>
+                        <Button component={Link} to="/cart" variant="contained" color="inherit">Back To Cart</Button>
+                        <Button type="submit" variant="contained" color="primary">Continue</Button>
+                    </div>
                 </form>
             </FormProvider>
         </>
