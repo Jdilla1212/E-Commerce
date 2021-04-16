@@ -5,7 +5,7 @@
 [For deployed version, click me](https://papadillasshop.netlify.app/)
 
 ![Image of DEMO application](https://github.com/Jdilla1212/E-Commerce/tree/main/src/assets/site-sample-2.PNG) 
-![Image of DEMO application](https://github.com/Jdilla1212/E-Commerce/tree/main/src/assets/site-sample-3.PNG) 
+<!-- ![Image of DEMO application](https://github.com/Jdilla1212/E-Commerce/tree/main/src/assets/site-sample-3.PNG)  -->
 
 <br>
 
