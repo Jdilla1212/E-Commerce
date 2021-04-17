@@ -1,10 +1,10 @@
-# React Portfolio Website
+# Papadilla's Ecommerce Store
 
 ![License badge](https://img.shields.io/badge/license-MIT-green)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/82751a1c-ac01-47cb-a057-2fdba0d0d10c/deploy-status)](https://papadillasshop.netlify.app/) <---- Click here to visit the site!  
 
-![Image of DEMO application](https://github.com/Jdilla1212/E-Commerce/tree/main/src/assets/site-sample-2.PNG) 
+![Image of DEMO application](https://github.com/Jdilla1212/E-Commerce/blob/main/src/assets/site-sample-2.PNG) 
 
 <br>
 
